@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'poppins', sans-serif;
+}
+body{
+    background-color: mediumslateblue;
+}
+.wholecontent{
+    background-color: rgb(71, 2, 2);
+}
+.contactus{
+    background-color: rgb(124, 5, 5);
+    color: white;
+}
+.contactus {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.contactcontent1 a{
+    color: rgb(43, 226, 180);
+    text-decoration: none;
+}
+.contactcontent1 a :hover{
+    color: black;
+    text-decoration: underline;
+
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin-top: px;
+    
+}
+.contentfooter a{
+    color: white;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.tickets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.tickets p, .tickets button {
+    margin: 0;
+}
+.tickets h3 {
+    margin: 0;
+}
+.tickets button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+.ticket1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket1 p, .tickets button {
+    margin: 0;
+}
+.ticket1 h3 {
+    margin: 0;
+}
+.ticket1 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+.ticket2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket2 p, .tickets button {
+    margin: 0;
+}
+.ticket2 h3 {
+    margin: 0;
+}
+.ticket2 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket3 p, .tickets button {
+    margin: 0;
+}
+.tickets h3 {
+    margin: 0;
+}
+.ticket3 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket4 p, .tickets button {
+    margin: 0;
+}
+.ticket4 h3 {
+    margin: 0;
+}
+.ticket4 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket5 p, .tickets button {
+    margin: 0;
+}
+.ticket5 h3 {
+    margin: 0;
+}
+.ticket5 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket6 p, .tickets button {
+    margin: 0;
+}
+.ticket6 h3 {
+    margin: 0;
+}
+.ticket6 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket7 p, .tickets button {
+    margin: 0;
+}
+.ticket7 h3 {
+    margin: 0;
+}
+.ticket7 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket8 p, .tickets button {
+    margin: 0;
+}
+.ticket8 h3 {
+    margin: 0;
+}
+.ticket8 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket9 p, .tickets button {
+    margin: 0;
+}
+.ticket9 h3 {
+    margin: 0;
+}
+.ticket9 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket10 p, .tickets button {
+    margin: 0;
+}
+.ticket10 h3 {
+    margin: 0;
+}
+.ticket10 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket11 p, .tickets button {
+    margin: 0;
+}
+.ticket11 h3 {
+    margin: 0;
+}
+.ticket11 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket12 p, .tickets button {
+    margin: 0;
+}
+.ticket12 h3 {
+    margin: 0;
+}
+.ticket12 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket13 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket13 p, .tickets button {
+    margin: 0;
+}
+.ticket13 h3 {
+    margin: 0;
+}
+.ticket13 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket14 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket14 p, .tickets button {
+    margin: 0;
+}
+.ticket14 h3 {
+    margin: 0;
+}
+.ticket14 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket15 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket15 p, .tickets button {
+    margin: 0;
+}
+.ticket15 h3 {
+    margin: 0;
+}
+.ticket15 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket16 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket16 p, .tickets button {
+    margin: 0;
+}
+.ticket16 h3 {
+    margin: 0;
+}
+.ticket16 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket17 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket17 p, .tickets button {
+    margin: 0;
+}
+.ticket17 h3 {
+    margin: 0;
+}
+.ticket17 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket18 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket18 p, .tickets button {
+    margin: 0;
+}
+.ticket18 h3 {
+    margin: 0;
+}
+.ticket18 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket19 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket19 p, .tickets button {
+    margin: 0;
+}
+.ticket19 h3 {
+    margin: 0;
+}
+.ticket19 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket20 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket20 p, .tickets button {
+    margin: 0;
+}
+.ticket20 h3 {
+    margin: 0;
+}
+.ticket20 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket21 p, .tickets button {
+    margin: 0;
+}
+.ticket21 h3 {
+    margin: 0;
+}
+.ticket21 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket22 p, .tickets button {
+    margin: 0;
+}
+.ticket22 h3 {
+    margin: 0;
+}
+.ticket22 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket23 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket23 p, .tickets button {
+    margin: 0;
+}
+.ticket23 h3 {
+    margin: 0;
+}
+.ticket23 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket24 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f0505;
+    color: #fff;
+}
+.ticket624p, .tickets button {
+    margin: 0;
+}
+.ticket24 h3 {
+    margin: 0;
+}
+.ticket24 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ticket25 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #500303;
+    color: #fff;
+}
+.ticket25 p, .tickets button {
+    margin: 0;
+}
+.ticket25 h3 {
+    margin: 0;
+}
+.ticket25 button {
+    padding: 10px 20px;
+    background-color: #ff0015;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.image{
+    background-image: url(images/commedy.jpg);
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.image a{
+    padding: 10px;
+    color: white;
+}
